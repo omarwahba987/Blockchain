@@ -1,0 +1,44 @@
+=============== Mar 3, 2020 (EET) ===============
+16:22:56.874668 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:22:56.971700 db@open opening
+16:22:56.973699 version@stat F·[] S·0B[] Sc·[]
+16:22:57.059193 db@janitor F·2 G·0
+16:22:57.059193 db@open done T·87.4925ms
+16:22:57.059193 db@close closing
+16:22:57.060192 db@close done T·998.7µs
+=============== Mar 3, 2020 (EET) ===============
+16:22:57.902851 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:22:57.905881 version@stat F·[] S·0B[] Sc·[]
+16:22:57.905881 db@open opening
+16:22:57.907880 journal@recovery F·1
+16:22:57.908847 journal@recovery recovering @1
+16:22:57.970798 memdb@flush created L0@2 N·1 S·158B ",v1":",v1"
+16:22:57.972825 version@stat F·[1] S·158B[158B] Sc·[0.25]
+16:22:58.062472 db@janitor F·3 G·0
+16:22:58.062472 db@open done T·156.5915ms
+16:22:58.063471 db@close closing
+16:22:58.063471 db@close done T·0s
+=============== Mar 3, 2020 (EET) ===============
+16:22:58.848660 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:22:58.851658 version@stat F·[1] S·158B[158B] Sc·[0.25]
+16:22:58.852632 db@open opening
+16:22:58.853656 journal@recovery F·1
+16:22:58.858653 journal@recovery recovering @3
+16:22:58.904464 memdb@flush created L0@5 N·1 S·159B ",v3":",v3"
+16:22:58.906477 version@stat F·[2] S·317B[317B] Sc·[0.50]
+16:22:59.010027 db@janitor F·4 G·0
+16:22:59.010027 db@open done T·157.3947ms
+16:22:59.011026 db@close closing
+16:22:59.012027 db@close done T·1.0003ms
+=============== Mar 3, 2020 (EET) ===============
+16:22:59.617192 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:22:59.619188 version@stat F·[2] S·317B[317B] Sc·[0.50]
+16:22:59.619188 db@open opening
+16:22:59.619188 journal@recovery F·1
+16:22:59.620190 journal@recovery recovering @6
+16:22:59.670376 memdb@flush created L0@8 N·1 S·159B ",v5":",v5"
+16:22:59.671379 version@stat F·[3] S·476B[476B] Sc·[0.75]
+16:22:59.765735 db@janitor F·5 G·0
+16:22:59.765735 db@open done T·146.5473ms
+16:22:59.766707 db@close closing
+16:22:59.767702 db@close done T·994.2µs

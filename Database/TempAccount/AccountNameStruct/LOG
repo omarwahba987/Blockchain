@@ -1,0 +1,70 @@
+=============== Mar 3, 2020 (EET) ===============
+16:22:56.262185 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:22:56.293578 db@open opening
+16:22:56.294577 version@stat F·[] S·0B[] Sc·[]
+16:22:56.337221 db@janitor F·2 G·0
+16:22:56.337221 db@open done T·43.6436ms
+16:22:56.439545 db@close closing
+16:22:56.439545 db@close done T·0s
+=============== Mar 3, 2020 (EET) ===============
+16:22:56.620982 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:22:56.624947 version@stat F·[] S·0B[] Sc·[]
+16:22:56.624947 db@open opening
+16:22:56.626946 journal@recovery F·1
+16:22:56.626946 journal@recovery recovering @1
+16:22:56.630944 version@stat F·[] S·0B[] Sc·[]
+16:22:56.732075 db@janitor F·2 G·0
+16:22:56.733075 db@open done T·108.1278ms
+16:22:56.733075 db@close closing
+16:22:56.734073 db@close done T·998.7µs
+=============== Mar 3, 2020 (EET) ===============
+16:22:57.546016 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:22:57.547029 version@stat F·[] S·0B[] Sc·[]
+16:22:57.547029 db@open opening
+16:22:57.548028 journal@recovery F·1
+16:22:57.550028 journal@recovery recovering @2
+16:22:57.604283 memdb@flush created L0@4 N·1 S·161B "ino..ian,v1":"ino..ian,v1"
+16:22:57.613275 version@stat F·[1] S·161B[161B] Sc·[0.25]
+16:22:57.710358 db@janitor F·3 G·0
+16:22:57.710358 db@open done T·163.3292ms
+16:22:57.711358 db@close closing
+16:22:57.712343 db@close done T·984.7µs
+=============== Mar 3, 2020 (EET) ===============
+16:22:58.412738 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:22:58.413740 version@stat F·[1] S·161B[161B] Sc·[0.25]
+16:22:58.413740 db@open opening
+16:22:58.414739 journal@recovery F·1
+16:22:58.414739 journal@recovery recovering @5
+16:22:58.459250 memdb@flush created L0@7 N·1 S·168B "ino..ees,v3":"ino..ees,v3"
+16:22:58.461268 version@stat F·[2] S·329B[329B] Sc·[0.50]
+16:22:58.678847 db@janitor F·4 G·0
+16:22:58.678847 db@open done T·265.1073ms
+16:22:58.678847 db@close closing
+16:22:58.678847 db@close done T·0s
+=============== Mar 3, 2020 (EET) ===============
+16:22:59.343300 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:22:59.344297 version@stat F·[2] S·329B[329B] Sc·[0.50]
+16:22:59.344297 db@open opening
+16:22:59.344297 journal@recovery F·1
+16:22:59.345297 journal@recovery recovering @8
+16:22:59.392755 memdb@flush created L0@10 N·1 S·175B "ino..ees,v5":"ino..ees,v5"
+16:22:59.394787 version@stat F·[3] S·504B[504B] Sc·[0.75]
+16:22:59.485775 db@janitor F·5 G·0
+16:22:59.485775 db@open done T·141.4771ms
+16:22:59.486769 db@close closing
+16:22:59.486769 db@close done T·0s
+=============== Mar 3, 2020 (EET) ===============
+16:23:00.077701 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:23:00.082691 version@stat F·[3] S·504B[504B] Sc·[0.75]
+16:23:00.082691 db@open opening
+16:23:00.084689 journal@recovery F·1
+16:23:00.086693 journal@recovery recovering @11
+16:23:00.137279 memdb@flush created L0@13 N·1 S·161B "service2,v7":"service2,v7"
+16:23:00.137833 version@stat F·[4] S·665B[665B] Sc·[1.00]
+16:23:00.228460 db@janitor F·6 G·0
+16:23:00.228460 db@open done T·145.7697ms
+16:23:00.228460 table@move L0@13 -> L1
+16:23:00.229441 db@close closing
+16:23:00.229441 version@stat F·[3 1] S·665B[504B 161B] Sc·[0.75 0.00]
+16:23:00.292487 table-move@commit exiting
+16:23:00.293495 db@close done T·64.0542ms
